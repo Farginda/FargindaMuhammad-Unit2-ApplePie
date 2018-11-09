@@ -14,6 +14,7 @@
 		18B2DC4621948BAD00CA5D6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B2DC4421948BAD00CA5D6C /* LaunchScreen.storyboard */; };
 		18B2DC5121948BAD00CA5D6C /* Apple_PieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B2DC5021948BAD00CA5D6C /* Apple_PieTests.swift */; };
 		18B2DC5C21948BAD00CA5D6C /* Apple_PieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B2DC5B21948BAD00CA5D6C /* Apple_PieUITests.swift */; };
+		18B2DC6A21949B3700CA5D6C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B2DC6921949B3700CA5D6C /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		18B2DC5721948BAD00CA5D6C /* Apple PieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple PieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B2DC5B21948BAD00CA5D6C /* Apple_PieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_PieUITests.swift; sourceTree = "<group>"; };
 		18B2DC5D21948BAD00CA5D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B2DC6921949B3700CA5D6C /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				18B2DC3B21948BAC00CA5D6C /* AppDelegate.swift */,
 				18B2DC3D21948BAC00CA5D6C /* ViewController.swift */,
 				18B2DC3F21948BAC00CA5D6C /* Main.storyboard */,
+				18B2DC6921949B3700CA5D6C /* Game.swift */,
 				18B2DC4221948BAD00CA5D6C /* Assets.xcassets */,
 				18B2DC4421948BAD00CA5D6C /* LaunchScreen.storyboard */,
 				18B2DC4721948BAD00CA5D6C /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18B2DC3E21948BAC00CA5D6C /* ViewController.swift in Sources */,
+				18B2DC6A21949B3700CA5D6C /* Game.swift in Sources */,
 				18B2DC3C21948BAC00CA5D6C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,10 +443,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "xx-fanaa-xx-live.nl.Apple-Pie";
+				PRODUCT_BUNDLE_IDENTIFIER = "xx-fanaa-xx-live.nl";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -457,10 +461,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "xx-fanaa-xx-live.nl.Apple-Pie";
+				PRODUCT_BUNDLE_IDENTIFIER = "xx-fanaa-xx-live.nl";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
